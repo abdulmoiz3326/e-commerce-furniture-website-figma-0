@@ -18,21 +18,21 @@ const HomePage: React.FC = () => {
         </Link>
     </div>
     <div className="flex-shrink-0">
-        <Image src="/hero.png" alt="Rocket Single Seater" width={500} height={500} className="object-cover" />
+        <Image src="/hero.png" alt="Rocket Single Seater" width={400} height={400} className="object-cover" />
     </div>
 </section>
 
             {/* Second Section */}
             <section className="flex justify-center p-8" style={{ background: '#FAF4F4' }}>
                 <div className="flex flex-col items-center mx-4">
-                    <Image src="/side-table.png" alt="Side Table" width={500} height={500} className="object-cover" />
+                    <Image src="/side-table.png" alt="Side Table" width={400} height={400} className="object-cover" />
                     <p className="mt-2 text-3xl">Side Table</p>
                     <Link href="/view-more" className="mt-2 bg-white text-black py-2 px-4 rounded">
                         View More
                     </Link>
                 </div>
                 <div className="flex flex-col items-center mx-4">
-                    <Image src="/sofa.png" alt="Another Table" width={500} height={500} className="object-cover" />
+                    <Image src="/sofa.png" alt="Another Table" width={400} height={400} className="object-cover" />
                     <p className="mt-2 text-3xl">Another Table</p>
                     <Link href="/view-more" className="mt-2 bg-white text-black py-2 px-4 rounded">
                         View More
@@ -47,22 +47,22 @@ const HomePage: React.FC = () => {
                 <div className="flex justify-center mt-14 text-background: #9F9F9F;
 ">
                     <div className="flex flex-col items-center mx-2">
-                        <Image src="/1.png" alt="Light 1" width={200} height={200} className="object-cover" />
+                        <Image src="/1.png" alt="Light 1" width={220} height={220} className="object-cover" />
                         <p className="mt-2 text-center">trenton modular sofe_3</p>
                         <p className="text-center">RS.25,000.00</p>
                     </div>
                     <div className="flex flex-col items-center mx-2">
-                        <Image src="/2.png" alt="Light 2" width={200} height={200} className="object-cover" />
+                        <Image src="/2.png" alt="Light 2" width={220} height={220} className="object-cover" />
                         <p className="mt-2 text-center">granite dining table with dinning chair</p>
                         <p className="text-center">RS.25,000.00</p>
                     </div>
                     <div className="flex flex-col items-center mx-2">
-                        <Image src="/3.png" alt="Light 3" width={200} height={200} className="object-cover" />
+                        <Image src="/3.png" alt="Light 3" width={220} height={220} className="object-cover" />
                         <p className="mt-2 text-center">Bar table and stool</p>
                         <p className="text-center">RS.25,000.00</p>
                     </div>
                     <div className="flex flex-col items-center mx-2">
-                        <Image src="/4.png" alt="Light 4" width={200} height={200} className="object-cover" />
+                        <Image src="/4.png" alt="Light 4" width={220} height={220} className="object-cover" />
                         <p className="mt-2 text-center">Plain console with teak mirror</p>
                         <p className="text-center">RS.25,000.00</p>
                     </div>
@@ -78,7 +78,7 @@ const HomePage: React.FC = () => {
             {/* New Section: New Arrivals */}
             <section className="flex items-center justify-between px-8 py-16" style={{ background: '#FFF9E5' }}>
     <div className="flex-shrink-0">
-        <Image src="/asgard.png" alt="New Arrival" width={900} height={799} className="object-cover" />
+        <Image src="/asgard.png" alt="New Arrival" width={899} height={800} className="object-cover" />
     </div>
     <div className="flex flex-col items-center ml-8">
         <h2 className="text-lg font-medium text-gray-500">New Arrivals</h2>
@@ -103,8 +103,8 @@ const HomePage: React.FC = () => {
                 <Image 
                     src="/blog1.png" 
                     alt="Blog Image 1" 
-                    width={320} 
-                    height={240} 
+                    width={300} 
+                    height={250} 
                     className="w-full h-60 object-cover rounded-lg"
                 />
             </div>
@@ -138,8 +138,8 @@ const HomePage: React.FC = () => {
                 <Image 
                     src="/blog2.png" 
                     alt="Blog Image 2" 
-                    width={320} 
-                    height={240} 
+                    width={300} 
+                    height={250} 
                     className="w-full h-60 object-cover rounded-lg"
                 />
             </div>
@@ -173,8 +173,8 @@ const HomePage: React.FC = () => {
                 <Image 
                     src="/blog3.png" 
                     alt="Blog Image 3" 
-                    width={320} 
-                    height={240} 
+                    width={300} 
+                    height={250} 
                     className="w-full h-60 object-cover rounded-lg"
                 />
             </div>
@@ -227,7 +227,7 @@ const HomePage: React.FC = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-[#000000]px-4">
           <h1 className="text-[24px] md:text-[36px] font-bold">Store Instagram</h1>
           <p className="opacity-[0.8] max-w-[600px] text-[16px] md:text-[18px] mt-2">
-            Follow Store on Instagram
+            Follow our store on Instagram
           </p>
           <button className="mt-7 px-[50px] py-[20px] rounded-full shadow-2xl bg-[#FAFAFA]  text-black font-semibold">
             Follow Us
