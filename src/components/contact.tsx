@@ -13,8 +13,8 @@ const ContactSection = () => {
           <div className="text-center mb-12">
             <h1 className="text-3xl font-bold text-black">Get In Touch With Us</h1>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              For More Information About Our Product & Services, Please Feel Free To Drop Us An Email. 
-              We are 24 hours available
+              For More Information About Our Products & Services, Please Feel Free To Contact Us. 
+              We are 24 hours available.
             </p>
           </div>
 
@@ -31,15 +31,15 @@ const ContactSection = () => {
               <div>
                 <h2 className="text-xl font-semibold text-black">Phone</h2>
                 <p className="text-gray-600">
-                  Mobile: +(84) 546-6789<br />
-                  Hotline: +(84) 456-6789
+                  Mobile: +(84) 784-78435<br />
+                  Hotline: +(84) 427-43676
                 </p>
               </div>
               <div>
                 <h2 className="text-xl font-semibold text-black">Working Time</h2>
                 <p className="text-gray-600">
                   Monday-Friday: 9:00 - 22:00<br />
-                  Saturday-Sunday: 9:00 - 21:00
+                  Saturday-Sunday: 10:00 - 21:00
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ const ContactSection = () => {
                   <input
                     type="email"
                     id="email"
-                    placeholder="Abc@def.com"
+                    placeholder="xyz@gmail.com"
                     className="w-full mt-2 p-3 border border-gray-300 rounded-md"
                     required
                   />
@@ -130,7 +130,7 @@ const ContactSection = () => {
             <div>
               <h2 className="text-black font-bold text-3xl text-center">90 Days Return</h2>
               <p className="text-lg text-gray-700 text-center">
-                If the product has an issue, consectetur adipiscing elit.
+                If the product has any issue, consectetur adipiscing elit.
               </p>
             </div>
 
