@@ -42,8 +42,8 @@ const Hero = () => {
             <Image
                 src="/image/side_table.jpeg"
                 alt="Side Table"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="object-contain"
               />
               <h3 className="text-3xl font-semibold mb-2">Side Table</h3>
@@ -56,8 +56,8 @@ const Hero = () => {
             <Image
                 src="/image/side_table_2.jpeg"
                 alt="Another Side Table"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="object-contain"
               />
 
